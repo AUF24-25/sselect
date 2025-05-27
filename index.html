@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">REVELARE</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="reflection.html" class="nav-link">Reflection</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <img src="https://images.pexels.com/photos/7233109/pexels-photo-7233109.jpeg" alt="Background" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Welcome to my E-Portfolio</h1>
+                <p class="hero-subtitle">I hope you enjoy scrolling through this site!</p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">View Projects</a>
+                    <a href="reflection.html" class="btn btn-secondary">Read Reflection</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About This Portfolio</h2>
+                    <p class="about-description">
+                        Revelare captures the central idea of my final portfolio for Understanding the Self.  The word comes from Latin and means "to reveal," which perfectly describes this collection—it's about opening up and exploring my thoughts, experiences, and what I've discovered about myself. Through various activities, individually and with others, I had room to reflect more inwardly about who I am, the way that I think, and the way that I connect with the people around me. This portfolio is a record of growth, reflection, and self-awareness based on all that I have learned from this course.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Academic Excellence</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Collaborative Learning</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Creative Thinking</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="uts.png" alt="UTS">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Projects Preview -->
+    <section class="projects-preview">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" onclick="window.open('https://drive.google.com/drive/folders/1fgtZD2m3pw-FQPX0lsPXWib1NfhtM2Wi?usp=sharing', '_blank');" style="cursor: pointer;">
+                    <div class="project-image">
+                        <img src="m1.png" alt="Infographic Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>M1 l Reflective Essay</h3>
+                        <p>A personal reflection project exploring how Eastern and Western philosophies shape individual identity, habits, and relationships</p>
+                        <a href="https://drive.google.com/drive/folders/1fgtZD2m3pw-FQPX0lsPXWib1NfhtM2Wi?usp=sharing" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('https://drive.google.com/drive/folders/1Dipd8zgTFCGvD52NUUcS3m-vnkB-bS2s?usp=sharing', '_blank');" style="cursor: pointer;">
+                    <div class="project-image">
+                        <img src="m2.png" alt="Habit Formation">
+                    </div>
+                    <div class="project-content">
+                        <h3>M2 l Reflective Essay</h3>
+                        <p>A personal reflection on key life moments, future aspirations, and the journey of aligning real and ideal self</p>
+                        <a href="https://drive.google.com/drive/folders/1Dipd8zgTFCGvD52NUUcS3m-vnkB-bS2s?usp=sharing" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('https://drive.google.com/drive/folders/11CUq98Zed27tmkvBinHfvMNaakI1DtQp?usp=sharing', '_blank');" style="cursor: pointer;">
+                    <div class="project-image">
+                        <img src="m3.png" alt="Creating Reviewers">
+                    </div>
+                    <div class="project-content">
+                        <h3>M3 l Reflective Essay</h3>
+                        <p>A reflection on how my self-perception is shaped by social interactions and external feedback</p>
+                        <a href="https://drive.google.com/drive/folders/11CUq98Zed27tmkvBinHfvMNaakI1DtQp?usp=sharing" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; Developed by Jansdale S. Yusi. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="reflection.html">Reflection</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
